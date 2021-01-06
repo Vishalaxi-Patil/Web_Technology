@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Employee Interest Survey Form</title>
+        <style>
+            body{
+                text-align: center;
+                
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Employee Interst Survey form</h1>
+        <form action="" method="POST">
+            <div>
+                <label>Enter your name:</label>
+                <input required="text">
+            </div><br>
+            <div>
+                <label>Enter your department:</label>
+                <input required="text">
+            </div><br>
+            <div>
+                <label>Tell us a about yourself:</label>
+                <textarea rows="6" cols="42"></textarea>
+            </div><br>
+            <div>
+                <label>Do you excercise at home?</label>
+                <input type="radio" name="Yes" value="Yes">Yes
+                <input type="radio" name="Yes" value="No">No
+            </div><br>
+            <div>
+                <label>How do you like to read about your favorite topics?</label><br><br>
+                <input type="checkbox" value="Books">Books
+                <input type="checkbox" value="Online resources">Online resources
+                <input type="checkbox" value="Phone apps">Phone apps
+                <input type="checkbox" value="Magazines">Magazines
+            </div><br>
+            <div>
+                <label>What genre of movie do you like?</label>
+                <select>
+                    <option value="">--select--</option>
+                    <option value="">comedy</option>
+                    <option value="">Family type</option>
+                    <option value="">Love Story</option>
+                    <option value="">Horror</option>
+                </select>
+            </div><br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </body>
+</html>
